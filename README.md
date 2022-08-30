@@ -27,8 +27,8 @@ First, import ExoPlayerAgoraStats libaray.
 import com.agora.stats.ExoPlayerAgoraStats;
 ```
 
-Then, create a ExoPlayerAgoraStats object with appid and environment token params. 
-In the meantime, you should pass a ExoPlayer object(player variable in the code below) to ExoPlayerAgoraStats object.
+Then, create an ExoPlayerAgoraStats object with appid and environment token params. 
+In the meantime, you should pass an ExoPlayer object(player variable in the code below) to ExoPlayerAgoraStats object.
 
 ```java
 /*
@@ -44,12 +44,12 @@ else if("error" == type){
 });
 
 /*
- * There are two key params should be pass to ExoPlayerAgoraStats object by CustomerConfigData object.
+ * There are two key params should be passed to ExoPlayerAgoraStats object by CustomerConfigData object.
  * 
  * APP_ID_FROM_AGORA_PROJECT is a string, you can get it from https://console.agora.io/projects page.
  * This page will request you login, This is a necessary step. 
  * After login, goto https://console.agora.io/projects page again.
- * If you don`t have any project, please creating one.After the step, you will look the App ID of project.
+ * If you don`t have any project, please creating one.After the step, you will see the App ID of project.
  * 
  * ENVIRONMENT_TOKEN_FROM_AGORA is a string, you can get it from agora staff.
  */
@@ -72,6 +72,6 @@ More detail of code implementation please check demo/src/main/java/com/google/an
 
 **3. Looking up statistics data**
 
-If you want to look up statistics data of ExoPlayer, please contact with agora staff.
+If you want to view statistics data of ExoPlayer, please contact with agora staff.
 
 
