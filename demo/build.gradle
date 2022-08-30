@@ -84,7 +84,7 @@ dependencies {
     implementation 'com.google.android.exoplayer:exoplayer:2.17.1'
 
     implementation 'org.checkerframework:checker-qual:3.13.0'
-    implementation 'io.github.agoralab:ExoPlayerStats:0.2.10'
+    implementation 'io.github.agoralab:ExoPlayerStats:1.0.0'
 }
 
 apply plugin: 'com.google.android.gms.strict-version-matcher-plugin'
