@@ -16,7 +16,7 @@ Here are the key steps to use the ExoPlayerStats library.
 **1. Add ExoPlayerStats module dependencies**
 
 ```groovy
-implementation 'io.github.agoralab:ExoPlayerStats:0.2.2'
+implementation 'io.github.agoralab:ExoPlayerStats:1.0.0'
 ```
 
 
