@@ -68,6 +68,8 @@ if(null != exoPlayerAgoraStats){
 ```
 
 
+More detail of code implementation please check demo/src/main/java/com/google/android/exoplayer2/demo/PlayerActivity.java source file.
+
 **3. Looking up statistics data**
 
 If you want to look up statistics data of ExoPlayer, please contact with agora staff.
