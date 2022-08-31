@@ -22,7 +22,7 @@ implementation 'io.github.agoralab:ExoPlayerStats:1.0.0'
 
 **2. Add code to use statistics library**
 
-First, import ExoPlayerAgoraStats libaray.
+First, import ExoPlayerAgoraStats library.
 ```java
 import com.agora.stats.ExoPlayerAgoraStats;
 ```

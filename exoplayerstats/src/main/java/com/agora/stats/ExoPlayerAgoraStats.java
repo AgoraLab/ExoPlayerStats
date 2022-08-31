@@ -42,7 +42,12 @@ public class ExoPlayerAgoraStats extends ExoPlayerBaseStats implements Analytics
   private static final String MP_VERSION = "exoplayer-2.17.1";
   private static final String PLUGIN_VERSION ="exo_agora_stats-1.0.0";
 
-
+  /**
+   * ExoPlayerAgoraStats constructor
+   * @param player player object that you want to analyze
+   * @param playerName  custom player name, used to distinguish different objects
+   * @param customerConfigData used to pass some params to ExoPlayerAgoraStats object
+   */
   public ExoPlayerAgoraStats(ExoPlayer player, String playerName, CustomerConfigData customerConfigData) {
     super(player, playerName, customerConfigData);
 
@@ -51,6 +56,9 @@ public class ExoPlayerAgoraStats extends ExoPlayerBaseStats implements Analytics
     this.handle(new InitializedEvent(MP_VERSION, PLUGIN_VERSION));
   }
 
+  /**
+   * release operation that need executed before ExoPlayer release.
+   */
   public void release(){
 
     if(null != player && null != player.get()){
